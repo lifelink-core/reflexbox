@@ -1,5 +1,6 @@
 
 import React from 'react'
+import PropTypes from 'prop-types'
 import withReflex from './withReflex'
 
 const Base = withReflex()('div')
@@ -20,7 +21,7 @@ const Grid = ({
 }
 
 Grid.propTypes = {
-  align: React.PropTypes.oneOf([
+  align: PropTypes.oneOf([
     'top',
     'middle',
     'bottom',
@@ -33,4 +34,3 @@ Grid.defaultProps = {
 }
 
 export default Grid
-
