@@ -1,6 +1,8 @@
 
 # Reflexbox
 
+*This project has been archived, any code / packages are likely obsolete and should not be reused.*
+
 Responsive React flexbox grid system higher order component
 
 [![Build Status](https://travis-ci.org/jxnblk/reflexbox.svg?branch=master)](https://travis-ci.org/jxnblk/reflexbox)
